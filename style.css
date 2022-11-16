@@ -1,0 +1,148 @@
+.a1{
+  float:right;
+  margin-right: 120px;
+  border:solid 4px ;
+  border-radius: 6px;
+  height: 45px;
+  width: 140px;
+  font-size: 20px;
+  border:none white;
+  width: 40px;
+}
+
+.a2{
+  margin-left: 60px;
+  line-height: 10px;
+  font-size: 20px;
+  color: rgb(0, 94, 94);
+}
+
+.a3{
+  margin-left:40px; 
+  line-height: 10px;
+  color:brown
+}
+
+.a4{
+    background-color: rgb(0, 56, 141);
+    position:sticky;
+    top: 0px;
+    width: 1600px;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    left: 0px;
+}
+.a5 {
+  margin-left: 210px;
+  text-decoration: none;
+  color: white;
+}
+.a5:hover{
+  display:inline;
+  background-color: rgb(1, 8, 110);
+  color: rgb(70, 173, 168);
+ 
+  padding:15px  
+}
+
+.a6:hover{
+  color:rgb(6, 50, 146)
+}
+a{text-decoration: none;
+  padding: 15px
+}
+
+#footer{
+display:block;
+box-sizing:300px;
+margin-top: 20px;
+background-color: #BBBBBB;
+padding-bottom: 400px;
+margin-top: 50px;
+left: 0;
+}
+.b1{
+  margin-top: 30px;
+  float:left;
+  font-size: 20px;
+  line-height: 40px;
+
+}
+.b2{
+  float:right;
+  width: 400px;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 23px;
+
+}
+
+.chat-facebook{
+  display: block;
+  margin-bottom: 6px;
+  line-height: 0;
+}
+
+.float-contact {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99999;
+}
+  .carousel-image {
+    width: 50%;
+    height: auto;
+    position:relative;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: none;
+   transition: all 2s;
+  }
+
+  .carousel-indicator:checked + .carousel-image {
+    display: inline-block;}
+
+.carousel {
+  overflow-x: hidden;
+}
+
+.carousel-image {
+  transition: all 0.9s;
+  left: -100%;
+}
+
+.carousel-indicator:checked ~ .carousel-image {
+  left: 100%;
+}
+
+.carousel-indicator:checked + .carousel-image {
+  left: 0;
+}
+
+.carousel {
+  text-align: center;
+  word-spacing: 12px;
+}
+
+.carousel-indicator {
+  position: relative;
+  bottom: 24px;
+}
+
+.carousel-image {
+  z-index: 1;
+}
+
+.carousel-indicator {
+  z-index: 2;
+}
+
+.carousel {
+  padding-top: 54%;
+}
+
+

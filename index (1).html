@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Đời Tuổi Trẻ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Task2.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesom...in.css">
+</head>
+<body>
+  <script src="./app.js"></script>
+    <div>
+    <h1 class="a3"><b>BÁO ĐỜI - TUỔI TRẺ</b></h1>
+<p class="a2">Trang thông tin điện tử</p><br/>
+</div>
+<div class="a4">
+    <a href="" class="a5">Trang Chủ</a>
+    <a href="https://baomoi.com/tin-moi.epi" class="a5">Mới</a>
+    <a href="https://baomoi.com/tin-video.epi" class="a5">Video</a>
+    <a href="https://baomoi.com/chu-de.epi" class="a5">Chủ Đề</a>
+</div>
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-border" style="display:non;width:400px;height: 30px;" id="leftMenu">
+    <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-hide-large">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button w3-border w3-sidebar w3-red">Trang Chủ</a>
+    <a href="https://baomoi.com/tin-moi.epi" class="w3-bar-item w3-button w3-border">Mới</a>
+    <a href="https://baomoi.com/tin-video.epi" class="w3-bar-item w3-button w3-border">Video</a>
+    <a href="https://baomoi.com/chu-de.epi" class="w3-bar-item w3-button w3-border">Chủ Đề</a>
+  </div>
+  
+  <div class="w3-teal">
+    <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    <div class="w3-container">
+    </div>
+  
+       
+  <script>
+  function w3_open() {
+    document.getElementById("leftMenu").style.display = "block";
+  }
+  
+  function w3_close() {
+    document.getElementById("leftMenu").style.display = "none";
+  }
+  </script></div>
+<div id="mainsection">
+      <div class="slides" style="float:left;margin-left: 100px; margin-top: 50px;font-size: 17px;text-align:justify;width: 500px;">
+<img src="https://cdn.tuoitre.vn/zoom/392_245/2022/10/15/logo-dai-bieu-2-166580258021726365894-crop-1665802971769300090421.jpg" width="600px" height="350">
+<a class="a6" href="https://tuoitre.vn/dai-bieu-du-dai-hoi-doan-tphcm-hao-hung-voi-dai-hoi-so-20221015095026729.htm" target="_blank" style="font-size:30px">Đại biểu dự Đại hội Đoàn TP.HCM hào hứng với ‘đại hội số’TTO</a>
+</div>
+<div style="float:right;padding: 100px; padding-top:50px; width:500px;">
+    <img src="https://cdn.tuoitre.vn/zoom/188_117/2022/10/15/tnguyen-thao-luan-16658143270411168367211-crop-16658146802741303520346.jpg"
+width="150px" height="90" style="border-radius:6px"/>
+<a class="a6" href="https://tuoitre.vn/tran-tro-hoa-nhip-voi-the-he-doan-vien-gen-z-alpha-2022101513260933.htm" target="_blank"
+ style="float: right;font-size: 23px;display:inline; margin-right: 40px;top:0;"><b>Trăn trở hòa nhịp với thế hệ<br/> đoàn viên gen Z, Alpha</b></a>
+<hr/>
+<img src="https://cdn.tuoitre.vn/thumb_w/586/2022/10/3/photo-1-1664771785906992101716.jpg" width="150px" height="90" style="border-radius:6px"/>
+<a class="a6" href="https://tuoitre.vn/gioi-tre-an-lam-viec-luot-web-cung-luc-nguoi-ban-ron-hay-dang-mat-tap-trung-20221003154227638.htm" target="_blank"
+ style="float: right;font-size: 18px;display:inline;top:0;"><b>Giới trẻ ăn, làm việc, lướt web cùng lúc: <br/>'Người bận rộn' hay đang mất tập trung?</b></a>
+<hr/>
+<img src="https://cdn.tuoitre.vn/thumb_w/586/2022/9/14/untitled-1663166069131375452119.png" width="150px" height="90" style="border-radius:6px"/>
+<a class="a6" href="https://tuoitre.vn/mot-tinh-yeu-voi-lich-su-nuoc-nha-20220914213808959.htm" target="_blank"
+ style="float: right;font-size: 19px;display:inline; margin-right: 40px;top:0;"><b>Một tình yêu với lịch sử nước nhà</b></a>
+<hr/>
+<img src="https://cdn.tuoitre.vn/zoom/188_117/2022/9/15/logo-tu-hao-su-viet-9-1663239437220340999020-crop-1663299967310323697762.jpg" width="150px" height="90" style="border-radius:6px"/>
+<a class="a6" href="https://tuoitre.vn/khong-quay-lung-voi-lich-su-va-van-hoa-nuoc-nha-20220915170634864.htm" target="_blank"
+ style="float: right;font-size: 23px;display:inline; margin-right: 40px;top:0;"><b>Không quay lưng với<br/> lịch sử và văn hóa nước nhà</b></a>
+</div>
+</div>
+<div class="carousel">
+  <input class="carousel-indicator" type="radio" name="indicator">
+  <img class="carousel-image" src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_11_04_16_44188025/8d3bb6d486996fc73688.jpg">
+
+  <input class="carousel-indicator" type="radio" name="indicator" checked>
+  <img class="carousel-image" src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_11_04_119_44187942/e1a2614d5100b85ee111.jpg">
+
+  <input class="carousel-indicator" type="radio" name="indicator">
+  <img class="carousel-image" src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_11_04_65_44187832/35596cb05cfdb5a3ecec.jpg">
+
+  <input class="carousel-indicator" type="radio" name="indicator">
+  <img class="carousel-image" src="https://photo-baomoi.bmcdn.me/w300_r3x2_sm/2022_11_04_15_44186673/52ba33a604ebedb5b4fa.jpg">
+</div>
+<div id="footer">
+<div class="b1">
+  <h2 style="margin-left:20px ;">Liên hệ</h2>
+  <b><a class="a6" href="https://baomoi.com/staticpages/intro.epi">Giới Thiệu</a><br/>
+  <a class="a6" href="https://baomoi.com/staticpages/termsofuse.epi">Điều Khoản Sử Dụng</a><br/>
+  <a class="a6" href="https://adtima.vn/lien-he?utm_source=baomoi&utm_medium=footer">Quảng Cáo</a></b>
+  <br/>
+  <a href="Task2.html">
+    <img src="http://dvdn247.net/wp-content/uploads/2020/07/avatar-mac-dinh-1.png" width="80px" height="80px" style="margin-top:20px; border-radius:60px">
+  </a>
+</div>
+<p class="b2">
+  </p>
+  <div class="float-contact">
+    <div class="chat-facebook">
+    <a href="https://www.facebook.com/messages/t/100052972535105" target="_blank"><img title="Chat Facebook" src="facebook.svg" alt="facebook-icon" width="40" height="40" /></a>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>
